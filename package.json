@@ -1,0 +1,26 @@
+{
+  "name": "apparelflow-erp-gatekeeper",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:init": "node scripts/init-db.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^18.0.5",
+    "jose": "^5.9.6",
+    "next": "^16.3.8",
+    "pg": "^8.13.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.3"
+  }
+}

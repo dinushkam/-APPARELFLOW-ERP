@@ -1,0 +1,28 @@
+# Assessment Compliance Checklist
+
+- [x] Full-stack Next.js/React application
+- [x] Persistent relational PostgreSQL schema
+- [x] Casual Blouse and Crop Top recipes seeded
+- [x] Cutting Supervisor role and order creation
+- [x] Cutting Verifier isolated QC terminal
+- [x] Sewing Supervisor verified-only queue
+- [x] Real authentication with role enforcement
+- [x] Visible demo role switcher
+- [x] Dynamic expected-component multiplier
+- [x] GREEN / YELLOW / RED component logic
+- [x] UI approval disabled for shortages
+- [x] API returns 422 for shortage, missing, or uncounted component
+- [x] API returns 403 for non-verifier approval attempts
+- [x] Mandatory rejection note
+- [x] Wastage calculation on backend
+- [x] Verifier attribution and timestamp from server session
+- [x] Component variances stored in immutable audit record
+- [x] Sewing queue SQL restricted to VERIFIED
+- [x] State persists in cloud PostgreSQL after refresh
+- [x] Defensive numeric validation
+- [x] Explicit high-contrast input/dropdown styling
+- [x] Automated tests for all five mandatory cases
+- [x] `AI_OPTIMIZATION_REPORT.md`
+- [x] README architecture/schema/demo credentials
+- [x] Public GitHub repository — candidate must push repository
+- [X] Live deployed URL — candidate must deploy with own cloud account
