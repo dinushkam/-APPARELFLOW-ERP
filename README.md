@@ -1,3 +1,11 @@
+## Live Application
+
+https://apparelflow-ngpp586z5-dinushkams-projects.vercel.app
+
+## Repository
+
+https://github.com/dinushkam/-APPARELFLOW-ERP
+
 # ApparelFlow ERP â€” Production Batch Verification & Sewing Queue Gate
 
 A production-oriented implementation of Webtezza's ApparelFlow ERP practical engineering challenge. The application models the Cutting Operations & Gatekeeper Verification Terminal with server-enforced RBAC, deterministic production states, persistent PostgreSQL storage, immutable verification audit records, a shortage hard stop, and a verified-only Sewing Queue.
@@ -55,7 +63,7 @@ The component multiplier is applied when an order is created, e.g. 50 garments Ã
 | Cutting Verifier | `verifier@apparelflow.demo` | `Verifier123!` |
 | Sewing Supervisor | `sewing@apparelflow.demo` | `Sewing123!` |
 
-The visible Role Switcher performs real login requests using these credentials. It does **not** mutate the role in client state.
+The visible demo account panel provides seeded credentials for evaluator testing. Once authenticated, the active role is locked to the server-side session. To access another role, the user must sign out and authenticate again using the appropriate account.
 
 ## Local setup
 
